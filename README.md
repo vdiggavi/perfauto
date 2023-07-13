@@ -14,7 +14,7 @@ performance test automation using locust.io
   * create a folder for your python projects
   * in that folder, clone the git-repo. In git bash it is this command: #TODO
 
-* in VS Code:   
+* in VS Code:
   * File -> Open Folder and open your automation folder
   * install python extension (click on extension icon (the square on the left pane), search for python and install). Then restart VS CODE.
   * In VS Code go to the terminal and create a virtual environment:
