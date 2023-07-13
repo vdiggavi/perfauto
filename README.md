@@ -46,4 +46,4 @@ Change directory to locustfiles in both (Example: cd D:\Automation\LoadTests> )
 
 - To Run all scenarios enter locust in the terminal:
   >`locust`
-- Browse http://localhost:8089
+- Browse <http://localhost:8089>
