@@ -17,7 +17,7 @@ performance test automation using locust.io
 * in VS Code:
   * File -> Open Folder and open your automation folder
   * install python extension (click on extension icon (the square on the left pane), search for python and install). Then restart VS CODE.
-  * In VS Code go to the terminal and create a virtual environment: 
+  * In VS Code go to the terminal and create a virtual environment:
     >python -m venv env
   * This creates a folder "env" in the project folder (it's ignored by git)
   * activate your new virtual environment:
@@ -26,8 +26,9 @@ performance test automation using locust.io
     * Note:
       On Microsoft Windows, it may be required to enable the Activate.ps1 script by setting the execution policy for the user. You can do this by issuing the following PowerShell command:
       >PS C:> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  * To install dependencies cd to root directory (Ex: cd D:\Automation) and run the following:
-    >pip install -r requirements.txt
+  * To install and validate dependencies cd to root directory (Ex: cd D:\Automation) and run the following:
+    >pip3 install locust
+    >locust -V
   * Done
   * IMPORTANT: whenever you start working on this project, the first thing you do is activate your virtual environment:  
     * either with the command CTRL+SHIFT+P (Python: create terminal) it will automatically find your virtual environment and activate it
